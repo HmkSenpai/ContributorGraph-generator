@@ -91,5 +91,5 @@ MIT — libre d'utilisation pour projets perso et commerciaux.
 ---
 
 <p align="center">
-  <sub>Non affilié à GitHub, Inc. • Fait avec ♥ par <a href="https://github.com/Hmksenpai">Hmksenpai</a></sub>
+  <sub>Non affilié à GitHub, Inc.</sub>
 </p>
