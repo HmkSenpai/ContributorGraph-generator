@@ -447,7 +447,26 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center gap-5 p-6">
-      <h1 className="text-lg font-semibold text-[#e6edf3]">Générateur de Contribution Graph</h1>
+      <header className="w-full max-w-[900px] flex flex-col items-center gap-3 py-2">
+        <div className="flex items-center gap-4">
+          {/* mini graph icon */}
+          <div className="hidden sm:grid grid-cols-7 gap-[3px] p-2.5 bg-[#161b22] border border-[#30363d] rounded-xl ]">
+            {/* row 1 */}
+            <span className="w-2.5 h-2.5 rounded-[3px] bg-[#39d353]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#26a641]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#006d32]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#0e4429]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#161b22] border border-[#30363d]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#39d353]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#26a641]" />
+            <span className="w-2.5 h-2.5 rounded-[3px] bg-[#26a641]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#39d353]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#006d32]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#26a641]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#0e4429]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#161b22] border border-[#30363d]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#006d32]" />
+            <span className="w-2.5 h-2.5 rounded-[3px] bg-[#006d32]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#0e4429]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#39d353]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#161b22] border border-[#30363d]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#26a641]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#39d353]" /><span className="w-2.5 h-2.5 rounded-[3px] bg-[#0e4429]" />
+          </div>
+          <div className="flex flex-col items-start">
+            <span className="text-[10px] tracking-[0.35em] font-mono text-[#6e7681] font-medium">CONTRIBUTION</span>
+            <h1 className="text-[32px] sm:text-[42px] font-black tracking-tighter leading-none flex gap-2">
+              <span className="bg-gradient-to-r from-[#39d353] via-[#26a641] to-[#39d353] bg-clip-text text-transparent">GRAPH</span>
+              <span className="text-[#e6edf3]">GENERATOR</span>
+            </h1>
+            <span className="text-[11px] text-[#8b949e] font-mono">haute qualité • PNG • SVG • GIF </span>
+          </div>
+        </div>
+        <p className="text-xs text-[#6e7681] text-center max-w-lg">Génère des images de contribution graph pour designers & portfolios — éditable, thèmes, texte → graphe, import GitHub</p>
+      </header>
 
       {/* GitHub import */}
       <div className="bg-[#161b22] border border-[#30363d] rounded-[10px] p-4 w-full max-w-[900px] flex flex-col gap-3">
